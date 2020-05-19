@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <style type="text/css">
+    .slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+  width: 350px;
+  margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+
+    .ant{text-decoration: none; color: black; display: block; width: 200px; height: 50px; border: 2px solid darkgray;border-radius: 5px; text-align: center; height: 50px; line-height: 50px; margin: 0px;}
+    .ant:hover{background: black; color: white;transition: all 1s; }
+
+  </style>
+
+
+ 
+</head>
+<body>
+  <nav style="position: fixed; width: 1520px; background-color: white; z-index: 6;">
+    <div>
+      <ul style="text-align: left; margin-left: 100px;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#view">View</a></li>
+        <li><a href="#contents">Contents</a></li>
+        <li><a href="#book">Book</a></li>  
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="box1" style="width: 400px; height: 550px; float: right; background: linear-gradient(to right, black, lightgray); padding-left: 30px; position: absolute; top: 0; left: 1119px; z-index: 1;" id="home">
+    <br><br><br><br><br>
+    <p style="color: lightgray; font-family: Noto+Sans+KR; font-weight: 500;">한 권의 책과<br>집에서 손쉽게 제작할 수 있는</p>
+    <P style="color: white; font-family: Noto+Sans+KR; font-weight: 700; font-size: 54px;">나만의<br><br>수제 무드등</P>
+  </div>
+  <div id="index-banner" class="parallax-container" style="width: 1100px; height: 550px;">
+    <div class="section no-pad-bot">
+      <div class="container">
+
+      </div>
+    </div>
+    <div class="parallax"><img src="in2.jpg"> 
+    </div>
+  </div>
+
+  <div class="container" style="width: 1520px; height: 380px; margin: 0;">
+    <div class="section">
+
+      <div class="row" style="width: 800px; height: 200px; margin-top: 50px;">
+        <div class="col s12" style="width: 800px; height: 200px;">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>About Us</h4>
+          <p class="light">누군가에게 선물하고 싶거나, 내 공간을 꾸밀 수 있는 새로운 무언가를 원했다면, 여기 쉽고, 간단하고, 부담스럽지 않는 나만의 개성적인 무드등을 제작해 봐요.</p>
+          <p style="font-size: 18px; font-weight: 900; margin-left: 700px;">price</p>
+          <p class="ant" style="font-size: 20px; font-weight: 700; margin-left: 560px;">20000</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+ <div class="container" style="width: 1520px; height: 1000px; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;" id="view">
+    <div class="section">
+
+      <div style="width: 800px; height: 600px; background-color: black; margin-left: 0; float: left;"><img src="in5.jpg" style=" width: 100%">
+      </div>
+      <div style="width: 450px; height: 300px; background-color: black; float: right;"><img src="in3.jpg" style=" width: 149%;">
+      </div>
+
+    </div>
+    <div class="section">
+        <div style="float: left; width: 800px; height: 600px; background: white; margin-left: 0px; margin-top: 30px; text-align: center;">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h5 class="header col s12 light" style="color: black; font-size: 32px;">"A small present<br>for someone close to you."</h5>
+        </div>
+        <div style="width: 450px; height: 200px; float: right;" >
+          <img src="in8.jpg" style="width: 80%">
+        </div>
+    </div>
+
+
+  <div class="parallax-container valign-wrapper" style="width: 900px; height: 500px;">
+    <div class="section no-pad-bot">
+      <div class="container" style="width: 400px; height: 400px;">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="main1.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+
+  <div class="box2" style="width: 400px; height: 500px; float: right; background: linear-gradient(to right, gray, lightgray); padding-left: 30px; position: absolute; top: 2175px; left: 1110px; z-index: 1;" id="contents">
+    <br>
+    <br>
+    <br>
+    <p style="color: white; font-size: 20px; ">Components</p>
+    <br>
+    <p style="color: white; font-family: Noto+Sans+KR; font-weight: 400; font-size: 12px; line-height: 150%;">
+      <ul style="color: white; font-family: Noto+Sans+KR; font-weight: 400; font-size: 13px; line-height: 150%;">
+        <li>무드등 외관 프레임<br>(아랫면 + 윗면 8피스, 바닥 1피스, 면 8피스)</li>
+        <br>
+        <li>색상 종이</li>
+        <br>
+        <li>LED</li>
+        <br>
+        <li>접착제</li>
+        <br>
+        <li>3색 컬러 펜</li>
+        <br>
+        <li>가이드라인</li>
+        <br>
+        <li>책 1 권</li>
+      </ul>
+    </p>
+  </div>
+
+
+  <div class="container" style="width: 1520px; height: 400px">
+    <div class="section" style="width: 900px; height: 400px">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">간단한 제작 과정</h5>
+
+            <p class="light">복잡한 조립 과정이나 재료의 손질이 까다롭지 않다. 과정 또한 많지 않기에 전체적인 무드등의 조립은 10분 내외로 완성할 수 있다. 자세한 사항은 내부에 함께 포함된 가이드라인을 참고하면 된다.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4" >
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">다양한 커스터마이징</h5>
+
+            <p class="light">무드등의 외관부터 시작해 색, 무늬와 같은 장식, 내부에 들어갈 글귀와 같은 부분들을 자신의 입맛대로 다양하게 꾸며줄 수 있다.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">간편한 변형</h5>
+
+            <p class="light">탈부착식의 조립 과정으로 인해 무드등 외곽을 꾸미는 장식적인 요소들을 언제든 원한다면 다른 디자인으로 교체할 수 있다. 기분에 따라, 날짜에 따라, 계획에 따라 다양한 시도를 해보고 싶은 분들을 위한 편의성!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div class="spacemarine1" style="width: 1200px; height: 400px; position: absolute; top: 3075px; margin-left: 0; background-color: gray;">
+  <div style="width: 1000px; height: 280px; padding: 50px; background-color: lightgray; box-shadow: 5px 5px 5px;">
+    <p style="text-align: center; font-size: 12px;">
+      <br>
+      <br>
+      [ 내용을 적어 보세요 ]
+    </p>
+    
+  </div>
+</div>
+
+   <div class="slider" style="margin-left: 1100px;">
+    <ul class="slides">
+      <li>
+        <img src="cali01.jpg">
+      </li>
+      <li>
+        <img src="cali02.jpg">
+      </li>
+      <li>
+        <img src="cali03.jpg">
+      </li>
+      <li>
+        <img src="cali04.jpg">
+      </li>
+      <li>
+        <img src="cali06.jpg">
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="width: 1520px; height: 500px;">
+    <div class="section no-pad-bot">
+      <div class="container" style="width: 400px; height: 400px;">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="back1.jpg"></div>
+  </div>
+
+
+  <div style="width: 1520px; height: 900px;" id="book">
+    <div>
+      <img src="book2.jpg" style="display: block; width: 30%; padding: 50px; margin-left: 150px; margin-top: 150px;" >
+    </div>
+    <div class="box3" style="float: right; width: 650px; height: 300px;  position: absolute; margin-left: 700px; top: 4200px;">
+      <h4>About the Book</h4>
+      <br>
+      <p>"문득 이 세상을 살아본 적이 없다는 느낌이 드는 것에 그녀는 놀랐다. 사실이었다. 그녀는 살아본 적이 없었다. 기억할 수 있는 오래전의 어린시절부터, 다만 견뎌왔을 뿐이었다. 그녀는 자신이 선량한 인간임을 믿었으며, 나름대로 성공했으며, 언제까지나 그럴 것이다. 그러나 이해할 수 없는 일이었다. 그 후락한 가건물과 웃자란 풀들 앞에서 그녀는 단 한번도 살아본 적 없는 어린 아이에 불과했다. - 본문 내용 중 일부 - "
+      <br>
+      <br>
+      한강 작가의 "채식주의자"는 평범하지 않은 것들 속에서 다시금 우리와 가까운 요소들을 드러내며 이야기를 이어간다. 정상적이어야 할 것들이 정상이 아닌 모습들, 사건 사고들을 통해 작가는 상처와 치유라는 깊은 개념을 다채로운 발상으로 보여주고 있다. </p>
+    </div>
+  </div>
+
+
+  <footer class="page-footer teal" style="width: 1520px; height: 400px;" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"></h5>
+          <p class="grey-text text-lighten-4">추가적인 문의사항이 있다면 아래의 연락처로 연락하시면 됩니다.
+          <br>
+          이메일 1sealand210@gmail.com
+          <br>
+          전화 010-5134-6820
+          </p>
+
+
+        </div>
+       
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" style="word-spacing: 8px;">
+      Made by   한경대학교   디자인학과   김태훈
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  $('.slider').slider();
+});
+  </script>
+
+</body>
+
+
+</html>
